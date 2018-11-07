@@ -1,6 +1,6 @@
 # SharpGen
 
-[SharpGen](https://github.com/cobbr/SharpGen) is a .NET Core console application that utilizes the [Rosyln](https://github.com/dotnet/roslyn) C# compiler to quickly cross-compile .NET Framework console applications or libararies.
+[SharpGen](https://github.com/cobbr/SharpGen) is a .NET Core console application that utilizes the [Rosyln](https://github.com/dotnet/roslyn) C# compiler to quickly cross-compile .NET Framework console applications or libraries.
 
 ### Intro
 
