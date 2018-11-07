@@ -1,0 +1,153 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.2.5" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="2.9.0" />
+    <PackageReference Include="YamlDotNet" Version="5.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Source\SharpSploit\.DS_Store" />
+    <None Remove="Source\SharpSploit\SharpSploit\SharpSploit - Quick Command Reference.md" />
+    <None Remove="Source\SharpSploit\SharpSploit\SharpSploit.xml" />
+    <None Remove="Source\SharpSploit\SharpSploit\References\.DS_Store" />
+    <None Remove="Source\SharpSploit\SharpSploit\References\net35\System.DirectoryServices.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit\References\net35\System.IdentityModel.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit\References\net35\System.Management.Automation.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit\References\net35\System.Management.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit\References\net35\mscorlib.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit\References\net40\System.DirectoryServices.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit\References\net40\System.IdentityModel.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit\References\net40\System.Management.Automation.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit\References\net40\System.Management.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit\References\net40\mscorlib.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit\obj\Debug\net40\SharpSploit.AssemblyInfoInputs.cache" />
+    <None Remove="Source\SharpSploit\SharpSploit\obj\Debug\net40\SharpSploit.csproj.CoreCompileInputs.cache" />
+    <None Remove="Source\SharpSploit\SharpSploit\obj\Debug\net40\SharpSploit.csprojAssemblyReference.cache" />
+    <None Remove="Source\SharpSploit\SharpSploit.API\appsettings.Development.json" />
+    <None Remove="Source\SharpSploit\SharpSploit.API\appsettings.json" />
+    <None Remove="Source\SharpSploit\SharpSploit.API\Data\References\System.Data.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit.API\Data\References\System.XML.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit.API\Data\References\net35\System.Core.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit.API\Data\References\net35\System.DirectoryServices.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit.API\Data\References\net35\System.IdentityModel.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit.API\Data\References\net35\System.Management.Automation.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit.API\Data\References\net35\System.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit.API\Data\References\net35\mscorlib.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit.API\Data\References\net40\System.Core.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit.API\Data\References\net40\System.DirectoryServices.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit.API\Data\References\net40\System.IdentityModel.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit.API\Data\References\net40\System.Management.Automation.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit.API\Data\References\net40\System.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit.API\Data\References\net40\mscorlib.dll" />
+    <None Remove="Source\SharpSploit\SharpSploit.API\Properties\launchSettings.json" />
+    <None Remove="Source\SharpSploit\SharpSploit.API.SharpShell\obj\Debug\SharpSploit.API.SharpShell.csproj.CoreCompileInputs.cache" />
+    <None Remove="Source\SharpSploit\SharpSploit.API.SharpShell\obj\Debug\SharpSploit.API.SharpShell.csprojAssemblyReference.cache" />
+    <None Remove="Source\SharpSploit\SharpSploit.Tests\SharpSploit.Tests\packages.config" />
+    <None Remove="Source\SharpSploit\SharpSploit.Tests\SharpSploit.Tests\obj\Debug\SharpSploit.Tests.csproj.CoreCompileInputs.cache" />
+    <None Remove="Source\SharpSploit\SharpSploit.Tests\SharpSploit.Tests\obj\Debug\SharpSploit.Tests.csprojAssemblyReference.cache" />
+    <None Remove="Source\SharpSploit\obj\Debug\net40\SharpSploit.csproj.CoreCompileInputs.cache" />
+    <None Remove="Source\SharpSploit\obj\Debug\net40\SharpSploit.AssemblyInfoInputs.cache" />
+    <None Remove="Source\SharpSploit\obj\Debug\net40\SharpSploit.csprojAssemblyReference.cache" />
+    <None Remove="Source\SharpSploit\SharpSploit - Quick Command Reference.md" />
+    <None Remove="Source\SharpSploit\SharpSploit.xml" />
+    <None Remove="Source\SharpSploit\References\net35\System.Management.dll" />
+    <None Remove="Source\SharpSploit\References\net35\System.IdentityModel.dll" />
+    <None Remove="Source\SharpSploit\References\net35\System.DirectoryServices.dll" />
+    <None Remove="Source\SharpSploit\References\net35\mscorlib.dll" />
+    <None Remove="Source\SharpSploit\References\net35\System.Management.Automation.dll" />
+    <None Remove="Source\SharpSploit\References\net40\System.Management.dll" />
+    <None Remove="Source\SharpSploit\References\net40\System.IdentityModel.dll" />
+    <None Remove="Source\SharpSploit\References\net40\System.DirectoryServices.dll" />
+    <None Remove="Source\SharpSploit\References\net40\mscorlib.dll" />
+    <None Remove="Source\SharpSploit\References\net40\System.Management.Automation.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Source\SharpSploit\SharpSploit\Credentials\Mimikatz.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit\Credentials\Tokens.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit\Enumeration\Domain.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit\Enumeration\Host.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit\Enumeration\Network.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit\Execution\Assembly.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit\Execution\PE.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit\Execution\Shell.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit\Execution\ShellCode.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit\Execution\Win32.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit\Generic\Generic.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit\LateralMovement\DCOM.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit\LateralMovement\WMI.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit\Misc\CountdownEvent.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit\Misc\Utilities.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit\obj\Debug\net40\SharpSploit.AssemblyInfo.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.API\SharpSploitAPI.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.API\Startup.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.API\Controllers\SharpSploitController.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.API\Data\src\SharpSploit\Credentials\Mimikatz.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.API\Data\src\SharpSploit\Credentials\Tokens.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.API\Data\src\SharpSploit\Enumeration\Domain.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.API\Data\src\SharpSploit\Enumeration\Host.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.API\Data\src\SharpSploit\Enumeration\Network.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.API\Data\src\SharpSploit\Execution\Assembly.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.API\Data\src\SharpSploit\Execution\PE.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.API\Data\src\SharpSploit\Execution\Shell.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.API\Data\src\SharpSploit\Execution\Win32.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.API\Data\src\SharpSploit\Generic\Generic.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.API\Data\src\SharpSploit\Misc\CountdownEvent.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.API\Data\src\SharpSploit\Misc\Utilities.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.API\Models\Compiler.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.API\Models\SharpSploitContext.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.API.SharpShell\Compiler.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.API.SharpShell\SharpShell.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.API.SharpShell\Properties\AssemblyInfo.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.Tests\SharpSploit.Tests\Credentials\MimikatzTests.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.Tests\SharpSploit.Tests\Credentials\TokensTests.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.Tests\SharpSploit.Tests\Enumeration\DomainTests.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.Tests\SharpSploit.Tests\Enumeration\HostTests.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.Tests\SharpSploit.Tests\Enumeration\NetworkTests.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.Tests\SharpSploit.Tests\Execution\ShellCodeTests.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.Tests\SharpSploit.Tests\Execution\ShellTests.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.Tests\SharpSploit.Tests\LateralMovement\DCOMTests.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.Tests\SharpSploit.Tests\LateralMovement\WMITests.cs" />
+    <Compile Remove="Source\SharpSploit\SharpSploit.Tests\SharpSploit.Tests\Properties\AssemblyInfo.cs" />
+    <Compile Remove="Source\SharpSploit\Credentials\Mimikatz.cs" />
+    <Compile Remove="Source\SharpSploit\Misc\CountdownEvent.cs" />
+    <Compile Remove="Source\SharpSploit\Misc\Utilities.cs" />
+    <Compile Remove="Source\SharpSploit\obj\Debug\net40\SharpSploit.AssemblyInfo.cs" />
+    <Compile Remove="Source\SharpSploit\Enumeration\Host.cs" />
+    <Compile Remove="Source\SharpSploit\Enumeration\Domain.cs" />
+    <Compile Remove="Source\SharpSploit\Enumeration\Network.cs" />
+    <Compile Remove="Source\SharpSploit\Execution\Shell.cs" />
+    <Compile Remove="Source\SharpSploit\Execution\Win32.cs" />
+    <Compile Remove="Source\SharpSploit\Execution\ShellCode.cs" />
+    <Compile Remove="Source\SharpSploit\Execution\PE.cs" />
+    <Compile Remove="Source\SharpSploit\Execution\Assembly.cs" />
+    <Compile Remove="Source\SharpSploit\Generic\Generic.cs" />
+    <Compile Remove="Source\SharpSploit\LateralMovement\DCOM.cs" />
+    <Compile Remove="Source\SharpSploit\LateralMovement\WMI.cs" />
+    <Compile Remove="Source\SharpSploit\Credentials\Tokens.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Confuser.Core">
+      <HintPath>refs\Confuser.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Confuser.DynCipher">
+      <HintPath>refs\Confuser.DynCipher.dll</HintPath>
+    </Reference>
+    <Reference Include="Confuser.MSBuild.Tasks">
+      <HintPath>refs\Confuser.MSBuild.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Confuser.Protections">
+      <HintPath>refs\Confuser.Protections.dll</HintPath>
+    </Reference>
+    <Reference Include="Confuser.Renamer">
+      <HintPath>refs\Confuser.Renamer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <PropertyGroup>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,6 @@
+# mac
+.DS_Store
+
+# Build results
+bin/
+obj/
