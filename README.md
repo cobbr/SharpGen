@@ -4,7 +4,7 @@
 
 ### Intro
 
-You'll find details and motivations for the SharpGen project in this [introductory blog post](https://cobbr.io/SharpSploit.html).
+You'll find details and motivations for the SharpGen project in this [introductory blog post](https://cobbr.io/SharpGen.html).
 
 ### Quick Start
 
