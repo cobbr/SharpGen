@@ -437,7 +437,7 @@ using SharpSploit.Misc;
 
 public static class {0}
 {{
-    static {1} {2}()
+    static {1} {2}(string[] args)
     {{
         {3}
     }}
