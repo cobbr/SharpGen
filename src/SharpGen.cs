@@ -20,7 +20,7 @@ namespace SharpGen
 {
     class SharpGen
     {
-        static void Main(string[] args)
+        static int Main(string[] args)
         {
             CommandLineApplication app = new CommandLineApplication();
             app.HelpOption("-? | -h | --help");
@@ -192,7 +192,7 @@ namespace SharpGen
                 }
                 return 0;
             });
-            app.Execute(args);
+            return app.Execute(args);
         }
 
         private static bool SetRequestDirectories(ref Compiler.CompilationRequest request)
