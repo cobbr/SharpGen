@@ -16,6 +16,9 @@
 - File: System.DirectoryServices.dll
   Framework: Net35
   Enabled: true
+- File: System.DirectoryServices.Protocols.dll
+  Framework: Net35
+  Enabled: true
 - File: System.Management.Automation.dll
   Framework: Net35
   Enabled: true
@@ -35,6 +38,9 @@
   Framework: Net40
   Enabled: true
 - File: System.DirectoryServices.dll
+  Framework: Net40
+  Enabled: true
+- File: System.DirectoryServices.Protocols.dll
   Framework: Net40
   Enabled: true
 - File: System.Management.Automation.dll
