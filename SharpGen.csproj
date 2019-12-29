@@ -59,11 +59,13 @@
     <None Remove="Source\SharpSploit\References\net35\System.Management.dll" />
     <None Remove="Source\SharpSploit\References\net35\System.IdentityModel.dll" />
     <None Remove="Source\SharpSploit\References\net35\System.DirectoryServices.dll" />
+    <None Remove="Source\SharpSploit\References\net35\System.DirectoryServices.Protocols.dll" />
     <None Remove="Source\SharpSploit\References\net35\mscorlib.dll" />
     <None Remove="Source\SharpSploit\References\net35\System.Management.Automation.dll" />
     <None Remove="Source\SharpSploit\References\net40\System.Management.dll" />
     <None Remove="Source\SharpSploit\References\net40\System.IdentityModel.dll" />
     <None Remove="Source\SharpSploit\References\net40\System.DirectoryServices.dll" />
+    <None Remove="Source\SharpSploit\References\net40\System.DirectoryServices.Protocols.dll" />
     <None Remove="Source\SharpSploit\References\net40\mscorlib.dll" />
     <None Remove="Source\SharpSploit\References\net40\System.Management.Automation.dll" />
   </ItemGroup>
