@@ -22,6 +22,9 @@
 - File: System.Management.Automation.dll
   Framework: Net35
   Enabled: true
+- File: System.XML.dll
+  Framework: Net35
+  Enabled: true
 - File: mscorlib.dll
   Framework: Net40
   Enabled: true
@@ -44,5 +47,8 @@
   Framework: Net40
   Enabled: true
 - File: System.Management.Automation.dll
+  Framework: Net40
+  Enabled: true
+- File: System.XML.dll
   Framework: Net40
   Enabled: true
