@@ -1,0 +1,3 @@
+[submodule "Source/SharpSploit"]
+	path = Source/SharpSploit
+	url = https://github.com/cobbr/SharpSploit.git
