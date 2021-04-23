@@ -13,6 +13,7 @@ The most basic usage of SharpGen would be to provide SharpGen an output filename
 ```
 cobbr@mac:~ > git clone https://github.com/cobbr/SharpGen
 cobbr@mac:~ > cd SharpGen
+cobbr@mac:~/SharpGen > git submodule update --init --recursive
 cobbr@mac:~/SharpGen > dotnet build
 cobbr@mac:~/SharpGen > dotnet bin/Release/netcoreapp2.1/SharpGen.dll -f example.exe "Console.WriteLine(Mimikatz.LogonPasswords());"
 [+] Compiling source:
